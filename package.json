@@ -1,0 +1,16 @@
+{
+  "name": "node-test",
+  "version": "1.0.0",
+  "description": "Hello world app",
+  "author": "Jack",
+  "license": "UNLICENSED",
+  "scripts": {
+    "serve": "nodemon ./src/main.js"
+  },
+  "dependencies": {
+    "@hubspot/api-client": "^8.6.0",
+    "express": "^4.18.2",
+    "keystone": "^4.2.1",
+    "nodemon": "^2.0.20"
+  }
+}
